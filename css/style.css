@@ -687,7 +687,7 @@ li a {
         /* float: right; */
     }
     .nav-menu.active {
-        left: 10;
+        left: 0;
     } 
     .hamburger {
         display: block;
