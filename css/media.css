@@ -1,0 +1,459 @@
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+        margin: auto;
+    }
+    .join-btn {
+        padding: 7px 11px;
+    }
+    .btn-text {
+        font-size: 16px;
+    }
+    .nav-boxs {
+        width: 28%;
+        align-items: center;
+        margin: 12px 00px 12px 00px;
+        display: flex;
+        margin: 4px 00px;
+    }
+    .about-btn {
+        padding: 00px 10px 00px 10px;
+    }
+    .hero-text-box {
+        width: 70%;
+        padding-top: 100px;
+    }
+    .hero-text-box h1 {
+        font-size: 50px;
+    }
+    .mrgin {
+        margin-bottom: 85px;
+    }
+    .callout h1 {
+        font-size: 30px;
+    }
+    .f-size {
+        padding: 00 250px 00 30px;
+    }
+    .p-title {
+        padding: 00 250px 10px 30px;
+    }
+    .ftr-text-box {
+        margin: 70px 10px 50px 00;
+        height: 10px;
+        line-height: 14px;
+    }
+    .hero-text-box p {
+        font-size: 18px;
+        padding: 14px 00px 30px 00px;
+    }
+    .puse-box {
+        margin: 100px 00px 15px 00px;
+    }
+    .box-content {
+        margin: 110px 00px 100px 00px;
+    }
+    .process-contaian {
+        padding: 100px 00px 100px 00px;
+    }
+    .mrgin2 {
+        margin-bottom: 34px;
+    }
+    .card_box {
+        padding: 00px 15px 20px 25px;
+    }
+    .ftr-section {
+        padding: 30px 00px 20px 00px;
+    }
+    .ftr-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 900px;
+        margin: auto;
+    }
+    .box-wrapper {
+        padding: 40px 00px 30px 00px;
+        margin-bottom: 40px;
+    }
+    .box {
+        width: 30%;
+        margin-top: 40px;
+    }
+    .box p {
+        padding: 22px 30px 00px 30px;
+    }
+    .heading {
+        font-size: 29px;
+        padding: 12px 00px 20px 00px;
+    }
+    .que-section {
+        padding: 90px 00px 00px 00px;
+    }
+    .que-heading {
+        font-size: 38px;
+    }
+    .home-img {
+        margin-top: 20px;
+        display: flex;
+        height: 180px;
+        margin: auto;
+    }
+    .que-box2 {
+        width: 70%;
+        margin: auto;
+    }
+    .que-box1 {
+        width: 100%;
+        text-align: center;
+    }
+    .que-box1 p {
+        padding: 30px 00px 90px 00px;
+    }
+    .p-boxs {
+        width: 100%;
+        margin: 60px 00px 00px 00px;
+    }
+    .accordion-item {
+        width: 50%;
+        margin: auto;
+    }
+    .grup_img {
+        /* width: 70%; */
+        height: 500px;
+        margin: auto;
+    }
+    .process-box {
+        text-align: center;
+    }
+    .ftr-box{
+        width: 20%;
+        display: block;
+    }
+    .ftr-call-btn {
+        padding: 2px 12px;
+        text-align: center;
+        display: block;
+    }
+    .ftr-text {
+        font-size: 14px;
+    }
+    .f-size {
+        padding: 00 00px 00 30px;
+    }
+    .ftr-end-text {
+        display: none;
+    }
+    .start-btn {
+        padding: 8px 18px;
+    }
+    .video-box {
+        padding: 130px 150px 130px 150px;
+    }
+    .video-section {
+        padding: 100px 00px;
+    }
+    .card_box {
+        width: 32%;
+        padding: 00px 20px 19px 25px;
+        margin: auto;
+    }
+    .card_box h2 {
+        font-size: 19px;
+    }
+    .details-box {
+        padding: 00px 00px 00px 00px;
+    }
+    .box-content h1 {
+        font-size: 29px;
+    }
+    .mrgin2 {
+        margin-bottom: 18px;
+    }
+    .box-content {
+        margin: 70px 00px 80px 00px;
+    }
+    .process-contaian {
+        padding: 75px 00px 60px 00px;
+    }
+    .join-btn {
+        padding: 3px 5px;
+    }
+    .btn-text {
+        font-size: 15px;
+    }
+    .about-btn {
+        padding: 00px 5px 00px 11px;
+        border: none;
+    }
+    select {
+        font-size: 15px;
+        padding: 00 2px;
+    }
+    .p {
+        font-size: 17px;
+    }
+    .last-font{
+        padding-left: 240px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: auto;
+    }
+    .card_box {
+        width: 46%;
+        margin-top: 20px;
+    }
+    .mrgin {
+        margin-bottom: 132px;
+    }
+    .process-contaian {
+        padding: 80px 00px 70px 00px;
+    }
+    .hero-text-box {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .last-font{
+        padding-left: 140px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 540px;
+        margin: auto;
+    }
+    .hero-text-box {
+        text-align: center;
+    }
+    .puse-box {
+        padding: 100px 00px 15px 00px;
+        margin: auto;
+    }
+    .box {
+        width: 50%;
+    }
+    .process-contaian {
+        padding: 70px 00px 20px 00px;
+    }
+    .accordion-item {
+        width: 70%;
+    }
+    .p-boxs {
+        margin: 30px 00px 00px 00px;
+    }
+    .card_box {
+        width: 49%;
+        padding: 00px 10px 10px 10px;
+    }
+    .mrgin {
+        margin-bottom: 90px;
+    }
+    .mrgin2 {
+        margin-bottom: 20px;
+    }
+    .que-section {
+        padding: 70px 00px 00px 00px;
+    }
+    .que-box1 p {
+        padding: 30px 00px 50px 00px;
+    }
+    .video-box {
+        padding: 100px;
+    }
+    .ftr-box{
+        width: 30%;
+        display: block;
+    }
+    .p-title {
+        padding: 00 100px 10px 30px;
+        word-spacing: 5px;
+    }
+    .last-font{
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 405px;
+        margin: auto;
+    }
+    .ftr-box{
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+    .home-img {
+        display: none;
+    }
+    .ftr-call-btn {
+        padding: 2px 12px;
+        text-align: center;
+        display: block;
+        width: 40%;
+        margin: auto;
+    }
+    .last-font{
+     display: none;
+    }
+    .underline {
+        width: 50%;
+        margin: auto;
+    }
+    .card_box {
+        width: 100%;
+        margin-top: 17px;
+    } 
+    .p-title {
+        padding: 00 00px 10px 10px;
+    }
+    .f-size {
+        padding: 00 00px 00 10px;
+    }
+    .ftr-text-box {
+        margin: 70px 2px 44px 1px;
+    }
+    .ftr-box h3{
+        border-bottom: 1px solid rgba(176, 176, 176, 0.761);
+    }
+    .underline{
+        display: none;
+    }
+    .video-section {
+        padding: 70px 00px;
+    }
+    .video-box {
+        padding: 80px 40px;
+    }
+    .que-box2 {
+        width: 90%;
+        margin: auto;
+    }
+    .card_box {
+        padding: 00px 20px 20px 20px;
+    }
+    .grup_img {
+        height: 350px;
+    }
+    .accordion-item {
+        width: 90%;
+    }
+    .box-content {
+        margin: 90px 00px 60px 00px;
+    }
+    .puse-box {
+        margin: 00px 00px 15px 00px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+ .container{
+    width: 300px;
+    margin: auto;
+ }
+ .ftr-box{
+    width: 100%;
+    display: block;
+}
+.ftr-text-box {
+    margin: 120px 10px 10px 00;
+}
+.img-3{
+    height: 39px;
+    display: block;
+}
+.video-box {
+    padding: 80px 20px 80px 20px;
+}
+.ftr-text {
+    font-size: 13px;
+}
+.video-section {
+    padding: 60px 00px;
+}
+.que-box2 {
+    width: 100%;
+}
+.que-heading {
+    font-size: 28px;
+}
+.que-box1 p {
+    font-size: 14px;
+}
+.que-section {
+    padding: 60px 00px 00px 00px;
+}
+.box-content h1 {
+    font-size: 24px;
+}
+.card_box {
+    margin-top: 20px;
+} 
+.box-content {
+    margin: 50px 00px 60px 00px;
+}
+.process-contaian {
+    padding: 50px 00px 00px 00px;
+}
+.grup_img {
+    height: 300px;
+}
+.accordion-item {
+    padding: 10px 10px;
+}
+.accordion button .accordion-title {
+    font-size: 16px;
+}
+.heading {
+    font-size: 22px;
+}
+.p {
+    font-size: 14px;
+}
+.title {
+    font-size: 16px;
+}
+.box {
+    width: 100%;
+}
+.box-content h4 {
+    font-size: 16px;
+}
+.puse-box {
+    padding: 60px 00px 15px 10px;
+    font-size: 11px;
+}
+.push-img{
+    height: 40px;
+}
+.start-btn2 {
+    padding: 9px 15px;
+    font-size: 16px;
+}
+.box-wrapper p {
+    font-weight: normal;
+}
+.hero-text-box h1 {
+    font-size: 30px;
+}
+.hero-text-box {
+    width: 100%;
+    padding-top: 70px;
+}
+}

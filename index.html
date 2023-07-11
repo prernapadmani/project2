@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/media.css">
+
+    <!-- change card btn script -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+        <header>
+            <div class="h-content">
+                <img src="./assets/Info.png" alt="">
+                <a class="t-whight-clr font-lato" href="#">Short stays australia COVID-19 safety practices apply.</a>
+            </div>
+        </header>
+
+        <nav class="container">
+            <div class="row j-between font-lato nav-menu">
+
+                <div class="nav-boxs">
+                    <img src="./assets/Logo (1).png" alt="">
+                </div>
+
+                <div class="nav-boxs j-around ">
+                       <select name="" id="" class="font-lato">
+                            <option value=""selected="true">Stay</option>
+                            <option value="">Stay</option>
+                            <option value="">Stay</option>
+                       </select>
+                       <select name="" id="">
+                             <option value="">Host</option>
+                             <option value="">Host</option>
+                             <option value="">Host</option>
+                       </select>
+                       <select name="" id="">
+                             <option value="">Swap</option>
+                             <option value="">Swap</option>
+                             <option value="">Swap</option>
+                       </select>
+                </div>
+
+                <div class="nav-boxs btns">
+                   <span class="join-btn btn-text ">
+                        <img src="./assets/home-alt.png" alt="">
+                        Join us
+                   </span>
+
+                    <span class="btn-text about-btn">About us</span>
+                    <div class="border"></div>
+                    <span class="btn-text t-blue-clr">
+                        <img src="./assets/profile-icon.png" alt="">
+                        Login/signup
+                    </span>
+                   
+                </div>
+
+                <div class="hamburger ">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
+
+            hamburger.addEventListener("click", mobileMenu);
+
+            function mobileMenu() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+            }
+        </script>
+
+
+
+        <section class="hero-img">
+            <div class="container  t-whight-clr">
+
+                <div class="hero-text-box ">
+                        <h1 class="font-Rolves">Become Short Stays Australia Host</h1>
+                        <p class="font-lato">Join as a host and become a part of family.</p>
+
+                        <span class="start-btn font-lato">
+                            Get started
+                            <img src="./assets/arrow-right.svg" alt="">
+                    </span>
+
+                    <div class="row">
+                        <div class="puse-box">
+                            <img class="push-img" src="./assets/pase-btn.png" alt="">
+                        </div>
+                        <div class="t-box puse-box">
+                                <h2>Mooloolaba Beach Luxury Home</h2>
+                                <blockquote class="font-lato">Queensland, Australia</blockquote>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container ">
+
+                <div class="box-content text-center">
+                    <h4 class="font-lato f-normal">INCLUDED BENEFITS</h4>
+                    <h1 class="font-Rolves font-bold">WHEN YOU BECOMA A SHORT STAYS HOST</h1>
+                    <P class="font-lato">we provide benefits to our partner hosts.</P>
+
+                    <div class="box-wrapper row j-between font-lato t-blue-clr">
+                        <div class="box">
+                            <img src="./assets/icon-1.png" alt="" title="sdas">
+                            <p>Aussie owned and operated</p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/icon2.png" alt="">
+                            <p >50% of the guest breaking fee is donated to MND research to help find a cure </p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/icon3.png" alt="">
+                            <p>Flexible listing options: Holiday, Short & Long Stay</p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/icon4.png" alt="">
+                            <p>Option to Home Swap & holiday for FREE</p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/icon5.png" alt="">
+                            <p>2% less commission rate for all holiday/short stay listings</p>
+                        </div>
+                        <div class="box">
+                            <img src="./assets/icon6.png" alt="">
+                            <p>local co-host, cleaner and photographer</p>
+                        </div>
+
+                    </div>
+
+
+                    <span class="start-btn2 font-lato t-blue-clr">
+                        Get started
+                        <img src="./assets/black-arrow.svg" alt="">
+                </span>
+
+                </div>
+        </section>
+
+        <aside class="process-contaian  ">
+            <div class="container process-box">
+                <h3 class="title font-lato">DET ONBOARD</h3>
+                <h1 class="heading font-Rolves font-bold">BECOME A HOST WITH OUR SIMPLE AND EASY PROCESS</h1>
+                <p class="p font-lato">You are the 3 steps away from registering as a short stays host.</p>
+
+                <div class="row">
+
+                    <div class="p-boxs que-box font-lato">
+                        <div class="container">
+            
+                            <div class="accordion">
+                            <div class="accordion-item">
+
+                                <button id="accordion-button-1" class="tablinks" onclick="openCity(event, 'image1')" aria-expanded="false">
+                                <span class="accordion-title"   >01. Choose your membership</span>
+                                <!-- <span class="icon" aria-hidden="true"></span> -->
+                                </button>
+
+                                <div class="accordion-content">
+                                <p>
+                                    Choose the level that's right for you, and your property availability.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" class="tablinks" onclick="openCity(event, 'image2')" aria-expanded="false">
+                                <span class="accordion-title">02. Complete your profile</span>
+                                <!-- <span class="icon" aria-hidden="true"></span> -->
+                                </button>
+                                <div class="accordion-content">
+                                <p>
+                                    complete the form with all the details we require to review your application.
+                                </p>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <button id="accordion-button-3" class="tablinks" onclick="openCity(event, 'image3')"  aria-expanded="false">
+                                <span class="accordion-title">03. add your property</span>
+                                <!-- <span class="icon" aria-hidden="true"></span> -->
+                                </button>
+                                <div class="accordion-content">
+                                <p>
+                                    Add your first property straight away for a Quick and easy start with short stays Australia
+                                </p>
+                                </div>
+                            </div>
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-boxs">
+                        <img id="image1" class="grup_img " src="./assets/image-1.svg" alt="" title="sfsdefr">
+                        <img id="image2" class="grup_img d-none" src="./assets/image-3.svg" alt="" title="sfsdefr">
+                        <img id="image3" class="grup_img d-none" src="./assets/image-2.svg" alt="" title="sfsdefr">
+                    </div>
+
+                </div>
+
+            </div>
+        </aside>
+    
+        <section class="container card-contain">
+            <div class="box-content ">
+                <h4 class="text-center font-lato"> MEMBERSHIP</h4>
+                <h1 class="text-center font-Rolves"> SELECT MEMBERSHIP PLAN THAT'S FITS FOR YOU</h1>
+                <P class="text-center font-lato">Simple pricing. No hidden fees. Advance features.</P>
+
+
+
+                <ul id="tabs" class="font-lato ">
+                    <li class="active btn regular-btn">Regular</li>
+                    <li class="btn premium-btn  " > <img class="gap" src="./assets/primium.png" alt="">Premium</li>
+                </ul>
+
+
+                <ul id="tab">
+                    <li class="active">
+                        <div class="row j-between font-lato">
+                    
+                    <div class="card_box" >
+                            <h1>$0<sub>/1 month</sub></h1>
+                            <h2>Holiday & Short Stay Membership</h2>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p class="mrgin">  For holiday (0 - 1 month bookings) & Short Stay (1 - 3 bookings).</p>
+                            </div>
+                        
+                            <button class="card-btn">Signup </button>
+                    </div>
+
+                    <div class="card_box">
+                            <h1>$49<sub>/6 months</sub></h1>
+                            <h2>Long Stay Membership</h2>
+                            <button class="renew-btn font-lato">Renews every 6 Months</button>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p> Keep your listing visible for 12 months.</p>
+                            </div>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p>For Stays 3+ months. Your listing will appear in our long stay category.</p>
+                            </div>
+                        
+                            <button class="card-btn">Signup </button>
+                    </div>
+
+                    <div class="card_box">
+                            <h1>$79<sub>/12 months </sub></h1>
+                            <h2>Long Stay Plus Membership</h2>
+                            <button class="renew-btn font-lato">Renews every 1 year</button>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p> Keep your listing visible for 12 months.</p>
+                            </div>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p>For Stays 3+ months. Your listing will appear in our long stay category.</p>
+                            </div>
+                            <button class="card-btn">Signup </button>
+                    </div>
+                </div>
+                    </li>
+                    
+                </ul>
+
+
+                <ul id="tab2">
+                    <li class="active">
+                        
+                <div id="tab" class="row j-between font-lato">
+
+                    <div class="card_box " >
+                        <h1>Upgrade<sub>your membership</sub></h1>
+                        <h2>Reach More Guests </h2>
+                        <div class="details-box">
+                            <div>~</div>
+                            <p> Reach more potential guest by registering your properties across multiple categories.</p>
+                        </div> 
+                        <div class="details-box">
+                            <div>~</div>
+                            <p>  Sign up for the premium host and swap membership and you can find your home away from home too!</p>
+                        </div>
+                    
+                        <button class="card-btn">Signup </button>
+                    </div>
+        
+                    <div class="card_box" >
+                            <h1>$79<sub>/12 months </sub></h1>
+                            <h2>Holiday/Short + Long Stay Membership</h2>
+                            <button class="renew-btn font-lato">Renews every 1 year</button>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p class="mrgin2">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
+                            </div>
+                            <button class="card-btn">Signup </button>
+                    </div>
+        
+                    <div class="card_box">
+                        <h1>$109<sub>/12 months </sub></h1>
+                        <h2>Holiday/Short + Long Stay + Swap Membership</h2>
+                        <button class="renew-btn font-lato">Renews every 1 year</button>
+                        <div class="details-box">
+                            <div>~</div>
+                            <p class="mrgin2">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
+                        </div>
+                        <button class="card-btn">Signup </button>
+                    </div>
+            
+                </div>
+                    </li>
+                    
+                </ul>
+            
+            </div>
+
+        </section>
+
+        <aside class="que-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="que-box1">
+                        <h1 class="que-heading font-Rolves">FREQUENTLY ASKED QUESTIONS</h1>
+                        <p class="font-lato">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has <a class="font-bold" href="#"> Help Center?</a> </p>
+
+                    </div>
+
+                    <div class="que-box2 font-lato">
+                        <div class="wrapper">
+                            <button class="toggle">
+                                <h3> How does shortstays australia work?</h3>
+                                <i class="fas fa-plus icon icon-clr"></i>
+                            </button>
+                            <div class="content">
+                                <p >Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <button class="toggle">
+                                <h3>How do I get started?</h3>
+                                <i class="fas fa-plus icon icon-clr"></i>
+                            </button>
+                            <div class="content">
+                                <p>Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <button class="toggle">
+                                <h3>What about insurance?</h3>
+                                <i class="fas fa-plus icon icon-clr"></i>
+                            </button>
+                            <div class="content">
+                                <p>Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <button class="toggle">
+                            <h3>   Is my land a fit?</h3>
+                                <i class="fas fa-plus icon icon-clr"></i>
+                            </button>
+                            <div class="content">
+                                <p>Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+                <img class="home-img" src="./assets/home-img.svg" alt="">
+
+        </aside>
+
+  
+        <section class="container video-section">
+
+                <div class="video-box">
+
+                    <video src="./video/_storage_emulated_0_Android_data_com.fawazapp.blackhole_files_DCIM_FUCF2M9V5B02ODCWR9H1.mp4" autoplay muted loop></video>
+
+                    <div class="callout t-whight-clr">
+                        <h1 class="font-Rolves font-bold text-center">Try Become Host</h1>
+                        <p class="font-lato text-center">After you've selected your membership, you'll be automatically redirected to complete your host profile and add your first property.</p>
+                            
+                            <span class="start-btn font-lato ">
+                                Get started
+                                <img  src="./assets/arrow-right.svg" alt="">
+                        </span>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+        <footer class="ftr-section">
+            <div class="container font-lato">
+
+                    <div class="row j-between  t-whight-clr">
+
+                        <div class="ftr-box">
+                            <ul>
+                                <img  fill="#ffffff" src="./assets/logo-2.svg" alt="">
+                                <li class="line-hight"><a href="#">When life takes you places.</a></li>
+                                <img src="./assets/facebook-squared.svg" alt="">
+                                <img src="./assets/Instagram.svg" alt="">
+                            </ul>
+                        </div>
+
+                        <div class="ftr-box">
+                            <h3> Book a Stay</h3>
+                            <ul class="ftr-text">
+                                <li><a href="#">Stay NSW</a></li>
+                                <li><a href="#">Stay NT</a></li>
+                                <li><a href="#">Stay QLD</a></li>
+                                <li><a href="#">Stay SA</a></li>
+                                <li><a href="#">Stay TAS</a></li>
+                                <li><a href="#">Stay VIC</a></li>
+                                <li><a href="#">Stay WA</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="ftr-box">
+                            <h3> For Hosts</h3>
+                            <ul class="ftr-text">
+                                <li><a href="#"> Register</a></li>
+                                <li><a href="#">Add a property</a></li>
+                                <li><a href="#">Chat dachboard</a></li>
+                                <li><a href="#">Quick links</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="ftr-box">
+                            <h3>About shortstays</h3>
+                            <ul class="ftr-text">
+                                <li><a href="#">About us </a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="ftr-box">
+                            <h3>Questions?</h3>
+                            <ul class="ftr-text">
+                                <li><a href="#">Drop us a line at:</a></li>
+                                <li ><h3><a class="ftr-font-clr" href="#">hello@shortstays.com</a></h3></li>
+
+                                <div class="underline"></div>
+                                <li><a href="#">Call us: <span class="ftr-call-btn">24*7 support</span> </a></li>
+                                <li><h3><a class="ftr-font-clr" href="#">+61 (987) 6543 210</a></h3></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="ftr-text-box  t-whight-clr">
+                            <img class="ftr-img" src="./assets/ftr-img.png" alt="">
+
+                            <div>
+                                <h4 class="p-title" >ACKNOWLEDGEMENT OF COUNTRY</h4> 
+                                <P  class="f-size" >Short Stays Australia would like to acknowledge the and Torres Straight Islanders <br/>both past and present as the Traditional Owners of Australia & their connections to the land, waters and sea. Their cultures, <br/>traditions, warmth and generosity are central to Australia’s history and our nation’s story.</P>
+                            </div>
+                        
+                        </div>
+
+                        <div class="ftr-text-box  t-whight-clr">
+                            <div>
+                                <h4 class="img-txt">We support</h4> 
+                                <img  class="img img-3" src="./assets/img-2.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="ftr-text-box  t-whight-clr">
+                            <img class="img-3" src="./assets/img-1.png" alt="">
+                        </div>
+                        
+                        <div class="ftr-text-box  t-whight-clr">
+                            <img class="img-3" src="./assets/img-3.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="underline"></div>
+
+
+                    <div class="row t-whight-clr j-between">
+                            <div >
+                                <p class="last-font">Copyright 2022-short Stays Australia <sup>TM</sup>. All Right Reserved.</p>
+                            </div>
+                        
+                            <div>
+                                <label class="ftr-end-text" for="">Terms os use</label>
+                                <label class="ftr-end-text" for="">Privacy policy</label>
+                                <label class="ftr-end-text" for="">Payment terms</label>
+                                <label class="ftr-end-text" for="">Cancellation Policies</label>
+                            </div>
+                            
+                    </div>
+                    
+
+                </div>
+
+        </footer>
+
+    
+    <!-- change image script -->
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, grup_img, tablinks;
+          grup_img = document.getElementsByClassName("grup_img");
+          for (i = 0; i < grup_img.length; i++) {
+            grup_img[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <!-- accrodion script -->
+
+    <script>
+            
+                            let toggles = document.getElementsByClassName('toggle');
+                let contentDiv = document.getElementsByClassName('content');
+                let icons = document.getElementsByClassName('icon');
+
+                for(let i=0; i<toggles.length; i++){
+                    toggles[i].addEventListener('click', ()=>{
+                        if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
+                            contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+                            toggles[i].style.color = "#0084e9";
+                            icons[i].classList.remove('fa-plus');
+                            icons[i].classList.add('fa-minus');
+                        }
+                        else{
+                            contentDiv[i].style.height = "0px";
+                            toggles[i].style.color = "#111130";
+                            icons[i].classList.remove('fa-minus');
+                            icons[i].classList.add('fa-plus');
+                        }
+
+                        for(let j=0; j<contentDiv.length; j++){
+                            if(j!==i){
+                                contentDiv[j].style.height = "0px";
+                                toggles[j].style.color = "#111130";
+                                icons[j].classList.remove('fa-minus');
+                                icons[j].classList.add('fa-plus');
+                            }
+                        }
+                    });
+                }
+    </script>
+
+    <!-- accrodion change image script -->
+
+    <script>
+        const items = document.querySelectorAll('.accordion button');
+
+        function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+        }
+
+        items.forEach((item) => item.addEventListener('click', toggleAccordion));
+    </script>
+
+    <!-- card change script -->
+    
+    <script>
+        $(document).ready(function(){
+        $("ul#tabs li").click(function(e){
+            if (!$(this).hasClass("active")) {
+                var tabNum = $(this).index();
+                var nthChild = tabNum+1;
+                $("ul#tabs li.active").removeClass("active");
+                $(this).addClass("active");
+                $("ul#tab li.active").removeClass("active");
+                $("ul#tab li:nth-child("+nthChild+")").addClass("active");
+                $("ul#tab2 li.active").removeClass("active");
+                $("ul#tab2 li:nth-child("+nthChild+")").addClass("active");
+            }
+        });
+    });
+    </script>
+
+
+    <!-- <script>
+                const tabs = document.querySelectorAll("[data-tab-target]");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+            tabs.forEach((tab) => {
+            tab.classList.remove("active");
+            });
+            tab.classList.add("active");
+            tabContents.forEach((tabContent) => {
+            tabContent.classList.remove("active");
+            });
+            const target = document.querySelector(tab.dataset.tabTarget);
+            target.classList.add("active");
+        });
+        });
+    </script> -->
+
+
+
+</body>
+</html>
