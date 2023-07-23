@@ -14,6 +14,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+
+       <!-- aos animation link -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet".card_box> -->
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   -->
+
 </head>
 <body>
 
@@ -25,50 +30,71 @@
         </header>
 
         <nav class="container">
-            <div class="row j-between font-lato ">
+            <div class="row font-lato navbar">
 
                     <div class="nav-boxs ">
                         <img src="./assets/Logo (1).png" alt="">
                     </div>
 
-                    <div class="nav-boxs j-around nav-menu">
-                            <select name="" id="" class="font-lato">
-                                <option value=""selected="true">Stay</option>
-                                <option value="">Stay</option>
-                                <option value="">Stay</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Host</option>
-                                <option value="">Host</option>
-                                <option value="">Host</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="">Swap</option>
-                                <option value="">Swap</option>
-                                <option value="">Swap</option>
-                            </select>
-                    </div>
-    
-                    <div class="nav-boxs btns nav-menu">
-                        <span class="join-btn btn-text ">
-                            <img src="./assets/home-alt.png" alt="">
-                            Join us
-                        </span>
-    
-                        <span class="btn-text about-btn">About us</span>
-                        <div class="border"></div>
-                        <span class="btn-text t-blue-clr">
-                            <img src="./assets/profile-icon.png" alt="">
-                            Login/signup
-                        </span>
-                        
+                     <div class="nav-menu">
+                            
+                            <div class="nav-boxs  drpdown-box ">
+                                <div class="drpdown">
+                                    <button class="show">Stay</button>
+                                    <ul class="list">
+                                        <li class="list-item" style="--delay:0.2s">Stay</li>
+                                        <li class="list-item" style="--delay:0.4s">Stay</li>
+                                        <li class="list-item" style="--delay:0.6s">Stay</li>
+                                    </ul>
+                                </div>
+                                <div class="drpdown">
+                                    <button class="show">Host</button>
+                                    <ul class="list">
+                                        <li class="list-item" style="--delay:0.2s">Host</li>
+                                        <li class="list-item" style="--delay:0.4s">Host</li>
+                                        <li class="list-item" style="--delay:0.6s">Host</li>
+                                    </ul>
+                                </div>
+                                <div class="drpdown">
+                                    <button class="show">Swap</button>
+                                    <ul class="list">
+                                        <li class="list-item" style="--delay:0.2s">Swap</li>
+                                        <li class="list-item" style="--delay:0.4s">Swap</li>
+                                        <li class="list-item" style="--delay:0.6s">Swap</li>
+                                    </ul>
+                                </div>
+                        </div>
+
+                        <div class="nav-boxs home-icon btns btns-block btn-inline">
+                            <span class="join-btn btn-text ">
+                               
+                              <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.4 14H9.6C9.26863 14 9 13.7314 9 13.4V11.6C9 11.2686 9.26863 11 9.6 11H10.4C10.7314 11 11 11.2686 11 11.6V13.4C11 13.7314 10.7314 14 10.4 14Z" fill="#648079"/>
+                                <path d="M1 6.5L10 1L19 6.5M17 10V16.4C17 16.7314 16.7314 17 16.4 17H3.6C3.26863 17 3 16.7314 3 16.4V10M9.6 14H10.4C10.7314 14 11 13.7314 11 13.4V11.6C11 11.2686 10.7314 11 10.4 11H9.6C9.26863 11 9 11.2686 9 11.6V13.4C9 13.7314 9.26863 14 9.6 14Z" stroke="#648079" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Join us
+                            </span>
+
+                            <span class="btn-text about-btn">About us</span>
+                            <div class="border"></div>
+                            <span class="btn-text t-blue-clr login-btn">
+                                <!-- <img src="./assets/profile-circled.svg" alt=""> -->
+                                <svg class="" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.271 17.3457C3.271 17.3457 5.50002 14.5 11 14.5C16.5 14.5 18.7291 17.3457 18.7291 17.3457M1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11ZM14 8C14 9.65685 12.6569 11 11 11C9.34315 11 8 9.65685 8 8C8 6.34315 9.34315 5 11 5C12.6569 5 14 6.34315 14 8Z" stroke="#252E4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                                    
+                                Login/signup
+                            </span>
+                            
+                        </div>
                     </div>
 
-                <div class="hamburger font-blue-clr">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+                    <div class="hamburger font-blue-clr">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
 
             </div>
         </nav>
@@ -85,43 +111,65 @@
             }
         </script>
 
+        <section >
+            <div class="container ">
+                <div class="hero-text-box t-whight-clr">
 
+                      <video autoplay muted loop id="myVideo">
+                        <source src="./video/video-1.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                      </video>
 
-        <section class="hero-img">
-            <div class="container  t-whight-clr">
+                        <h1 class="font-Rolves-Bold "  data-aos="fade-right">Become Short Stays Australia Host</h1>
+                        <p class="font-lato"  data-aos="fade-right">Join as a host and become a part of family.</p>
 
-                <div class="hero-text-box ">
-                        <h1 class="font-Rolves">Become Short Stays Australia Host</h1>
-                        <p class="font-lato">Join as a host and become a part of family.</p>
-
-                        <span class="start-btn font-lato">
+                        <span class="start-btn font-lato"  data-aos="fade-right">
                             Get started
                             <img src="./assets/arrow-right.svg" alt="">
-                    </span>
+                        </span>
 
-                    <div class="row">
-                        <div class="puse-box">
-                            <img class="push-img" src="./assets/pase-btn.png" alt="">
-                        </div>
-                        <div class="t-box puse-box">
-                                <h2>Mooloolaba Beach Luxury Home</h2>
-                                <blockquote class="font-lato">Queensland, Australia</blockquote>
-                        </div>
-                    </div>
+                        <div class="row">
+                                
+                            <div class="puse-box ">
+                              
+                                    <button id="myBtn" class="bg transition" onclick="myFunction()"></button>
+                            </div>
 
+                                <div class="t-box puse-box">
+                                        <h2>Mooloolaba Beach Luxury Home</h2>
+                                        <blockquote class="font-lato">Queensland, Australia</blockquote>
+                                </div>
+
+                        </div>
                 </div>
             </div>
         </section>
-
+                                    
+        <script>
+            var video1 = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+            
+            function myFunction() {
+                if (video1.paused) {
+            video1.play();
+            btn.className = "play-icon ";
+            } else {
+            video1.pause();
+            btn.className = "pause-icon";
+    }
+            }
+        </script>
 
         <section class="container ">
 
                 <div class="box-content text-center">
-                    <h4 class="font-lato f-normal">INCLUDED BENEFITS</h4>
-                    <h1 class="font-Rolves font-bold">WHEN YOU BECOMA A SHORT STAYS HOST</h1>
-                    <P class="font-lato">we provide benefits to our partner hosts.</P>
+                    <h4 class="font-lato f-normal" data-aos="zoom-in-up">INCLUDED BENEFITS</h4>
+                    <h1 class="font-Rolves-Bold pading" data-aos="zoom-in-up">WHEN YOU BECOMA A SHORT STAYS HOST</h1>
+                    <P class="font-lato note" data-aos="zoom-in-up">we provide benefits to our partner hosts.</P>
 
-                    <div class="box-wrapper row j-between font-lato t-blue-clr">
+                    <div class="box-wrapper row j-between font-lato t-blue-clr"  data-aos="fade-right"
+                    data-aos-offset="400"
+                    data-aos-easing="ease-in-sine">
                         <div class="box">
                             <img src="./assets/icon-1.png" alt="" title="sdas">
                             <p>Aussie owned and operated</p>
@@ -150,71 +198,74 @@
                     </div>
 
 
-                    <span class="start-btn2 font-lato t-blue-clr">
+                    <span class="start-btn2 font-lato t-blue-clr" data-aos="flip-down">
                         Get started
-                        <img src="./assets/black-arrow.svg" alt="">
-                </span>
+                        <!-- <img class="img-clr-change" src="./assets/black-arrow.svg" alt=""> -->
+                        <svg class="img-clr-change" width="24" height="24" viewBox="0 0 24 24" fill="#111111" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#252E4B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </span>
 
                 </div>
         </section>
 
-        <aside class="process-contaian  ">
+        <aside class="process-contaian section-hide">
             <div class="container process-box">
-                <h3 class="title font-lato">DET ONBOARD</h3>
-                <h1 class="heading font-Rolves font-bold">BECOME A HOST WITH OUR SIMPLE AND EASY PROCESS</h1>
-                <p class="p font-lato">You are the 3 steps away from registering as a short stays host.</p>
+                <h3 class="title font-lato" data-aos="zoom-in-up">DET ONBOARD</h3>
+                <h1 class="heading font-Rolves-Bold font-bold" data-aos="zoom-in-up">BECOME A HOST WITH OUR SIMPLE AND EASY PROCESS</h1>
+                <p class="p font-lato" data-aos="zoom-in-up">You are the 3 steps away from registering as a short stays host.</p>
 
                 <div class="row">
 
                     <div class="p-boxs que-box font-lato">
                         <div class="container">
             
-                            <div class="accordion">
-                            <div class="accordion-item">
+                            <div class="accordion  accordion-clr"  data-aos="fade-right">
+                                <div class="accordion_item " aria-expanded="false">
 
-                                <button id="accordion-button-1" class="tablinks" onclick="openCity(event, 'image1')" aria-expanded="false">
-                                <span class="accordion-title"   >01. Choose your membership</span>
-                                <!-- <span class="icon" aria-hidden="true"></span> -->
-                                </button>
+                                    <button id="accordion-button-1" class="tablinks" onclick="openCity(event, 'image1')" aria-expanded="false">
+                                    <span class="accordion-title font-lato"   >01. Choose your membership</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
 
-                                <div class="accordion-content">
-                                <p>
-                                    Choose the level that's right for you, and your property availability.
-                                </p>
+                                    <div class="accordion-content">
+                                    <p>
+                                        Choose the level that's right for you, and your property availability.
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="accordion_item bdr-top" aria-expanded="false">
+                                    <button id="accordion-button-2" class="tablinks  " onclick="openCity(event, 'image2')" aria-expanded="false">
+                                    <span class="accordion-title font-lato">02. Complete your profile</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
+                                    <div class="accordion-content">
+                                    <p>
+                                        complete the form with all the details we require to review your application.
+                                    </p>
+                                    </div>
+                                </div>
+                                <div class="accordion_item bdr-top bdr-top-none  " aria-expanded="false">
+                                    <button id="accordion-button-3" class="tablinks" onclick="openCity(event, 'image3')"  aria-expanded="false">
+                                    <span class="accordion-title font-lato">03. add your property</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
+                                    <div class="accordion-content">
+                                    <p>
+                                        Add your first property straight away for a Quick and easy start with short stays Australia
+                                    </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-2" class="tablinks" onclick="openCity(event, 'image2')" aria-expanded="false">
-                                <span class="accordion-title">02. Complete your profile</span>
-                                <!-- <span class="icon" aria-hidden="true"></span> -->
-                                </button>
-                                <div class="accordion-content">
-                                <p>
-                                    complete the form with all the details we require to review your application.
-                                </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-3" class="tablinks" onclick="openCity(event, 'image3')"  aria-expanded="false">
-                                <span class="accordion-title">03. add your property</span>
-                                <!-- <span class="icon" aria-hidden="true"></span> -->
-                                </button>
-                                <div class="accordion-content">
-                                <p>
-                                    Add your first property straight away for a Quick and easy start with short stays Australia
-                                </p>
-                                </div>
-                            </div>
-                            
-                            
-                            </div>
+
                         </div>
                     </div>
 
-                    <div class="p-boxs">
-                        <img id="image1" class="grup_img " src="./assets/image-1.svg" alt="" title="sfsdefr">
-                        <img id="image2" class="grup_img d-none" src="./assets/image-3.svg" alt="" title="sfsdefr">
-                        <img id="image3" class="grup_img d-none" src="./assets/image-2.svg" alt="" title="sfsdefr">
+                    <div class="p-boxs " >
+                        <img id="image1" class="grup_img " src="./assets/image-1.svg" alt="" title="image 1">
+                        <img id="image2" class="grup_img d-none" src="./assets/image-3.svg" alt="" title="image 2">
+                        <img id="image3" class="grup_img d-none" src="./assets/image-2.svg" alt="" title="image 3">
                     </div>
 
                 </div>
@@ -222,113 +273,238 @@
             </div>
         </aside>
     
+
+        <!-- section 2 -->
+
+        <aside class="process-contaian d-none section-show">
+            <div class="container process-box">
+                <h3 class="title font-lato" data-aos="zoom-in-up">DET ONBOARD</h3>
+                <h1 class="heading font-Rolves-Bold font-bold" data-aos="zoom-in-up">BECOME A HOST WITH OUR SIMPLE AND EASY PROCESS</h1>
+                <p class="p font-lato" data-aos="zoom-in-up">You are the 3 steps away from registering as a short stays host.</p>
+
+                <div class="row">
+
+                    <div class="p-boxs que-box font-lato">
+                        <div class="container">
+            
+                            <div class="accordion  accordion-clr"  data-aos="fade-right">
+                                <div class="accordion_item " aria-expanded="false">
+
+                                    <button id="accordion-button-1" class="tablinks2" onclick="openCity2(event2, 'image1')" aria-expanded="false">
+                                    <span class="accordion-title font-lato"   >01. Choose your membership</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
+
+                                    <div class="accordion-content">
+                                        <p>
+                                            Choose the level that's right for you, and your property availability.
+                                        </p>
+
+                                        <div class="p-boxs " >
+                                            <img id="image1" class="grup_img2 " src="./assets/image-1.svg" alt="" title="image 1">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="accordion_item bdr-top" aria-expanded="false">
+                                    <button id="accordion-button-2" class="tablinks2  " onclick="openCity2(event2, 'image2')" aria-expanded="false">
+                                    <span class="accordion-title font-lato">02. Complete your profile</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
+                                    <div class="accordion-content">
+                                        <p>
+                                            complete the form with all the details we require to review your application.
+                                        </p>
+                                        <div class="p-boxs " >
+                                            <img id="image2" class="grup_img2 " src="./assets/image-3.svg" alt="" title="image 2">
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+
+                                <div class="accordion_item bdr-top bdr-top-none  " aria-expanded="false">
+                                    <button id="accordion-button-3" class="tablinks2" onclick="openCity2(event2, 'image3')"  aria-expanded="false">
+                                    <span class="accordion-title font-lato">03. add your property</span>
+                                    <!-- <span class="icon" aria-hidden="true"></span> -->
+                                    </button>
+                                    <div class="accordion-content">
+                                        <p>
+                                            Add your first property straight away for a Quick and easy start with short stays Australia
+                                    
+                                        </p>
+                                        <div class="p-boxs " >
+                                            <img id="image3" class="grup_img2 " src="./assets/image-2.svg" alt="" title="image 3">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- <div class="p-boxs " >
+                        <img id="image1" class="grup_img " src="./assets/image-1.svg" alt="" title="image 1">
+                        <img id="image2" class="grup_img d-none" src="./assets/image-3.svg" alt="" title="image 2">
+                        <img id="image3" class="grup_img d-none" src="./assets/image-2.svg" alt="" title="image 3">
+                    </div> -->
+
+                </div>
+
+            </div>
+        </aside>
+    
+        
+      
         <section class="container card-contain">
             <div class="box-content ">
-                <h4 class="text-center font-lato"> MEMBERSHIP</h4>
-                <h1 class="text-center font-Rolves"> SELECT MEMBERSHIP PLAN THAT'S FITS FOR YOU</h1>
-                <P class="text-center font-lato">Simple pricing. No hidden fees. Advance features.</P>
+                <h4 class="text-center font-lato" data-aos="zoom-in-up"> MEMBERSHIP</h4>
+                <h1 class="text-center font-Rolves-Bold pading" data-aos="zoom-in-up"> SELECT MEMBERSHIP PLAN THAT'S FITS FOR YOU</h1>
+                <P class="text-center font-lato note" data-aos="zoom-in-up">Simple pricing. No hidden fees. Advance features.</P>
 
 
-
+              <div class="aline-center" data-aos="fade-up"
+              data-aos-duration="3000">
                 <ul id="tabs" class="font-lato ">
-                    <li class="active btn regular-btn">Regular</li>
-                    <li class="btn premium-btn  " > <img class="gap" src="./assets/primium.png" alt="">Premium</li>
+                    <li class="active btn regular-btn ">Regular</li>
+                    <li class="btn premium-btn " > 
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="z" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.19134 0.0707008C8.10873 0.111242 7.99577 0.195987 7.94034 0.258988C7.88487 0.32199 7.21208 1.53837 6.44518 2.96207C5.67827 4.38578 5.03924 5.56234 5.02508 5.57663C5.01092 5.59093 4.22201 5.12499 3.27193 4.54121L1.5445 3.47979H1.26011C1.01444 3.47979 0.954996 3.49432 0.823411 3.58667C0.624457 3.7263 0.494261 4.00411 0.500195 4.27626C0.50425 4.46113 2.04549 11.5297 2.13006 11.8661C2.15102 11.9495 2.22747 12.0874 2.29995 12.1724C2.55816 12.4755 2.06885 12.4545 8.56961 12.4423L14.3931 12.4314L14.5318 12.3318C14.8502 12.1032 14.7808 12.4153 15.6886 9.12865C16.3004 5.56604 16.511 4.26141 16.4996 4.10562C16.4637 3.61706 15.9638 3.26267 15.5266 3.41571C15.4562 3.44032 14.6388 3.94246 13.7102 4.53154C12.7815 5.12065 12.0102 5.59093 11.996 5.57663C11.9818 5.56234 11.3428 4.38578 10.5759 2.96207C9.809 1.53837 9.13621 0.32199 9.08074 0.258988C8.85929 0.00734106 8.48275 -0.0723864 8.19134 0.0707008ZM2.53616 14.4193C2.43315 14.4765 2.32323 14.5855 2.24505 14.708C2.12661 14.8937 2.12022 14.9211 2.13303 15.1911C2.14437 15.4312 2.16461 15.5044 2.2586 15.646C2.32023 15.7388 2.44513 15.8564 2.53616 15.9073L2.70169 16H8.51054H14.3194L14.4849 15.9073C14.576 15.8564 14.7011 15.7384 14.7631 15.6451C14.865 15.4915 14.8757 15.4458 14.8757 15.1637C14.8757 14.8816 14.865 14.8359 14.7631 14.6823C14.7011 14.589 14.576 14.471 14.4849 14.4201L14.3194 14.3274H8.51054H2.70169L2.53616 14.4193Z" fill="#808490"/>
+                            </svg>
+                            
+                        Premium</li>
                 </ul>
+              </div>
 
 
-                <ul id="tab">
+                <ul id="tab"  data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine">
                     <li class="active">
                         <div class="row j-between font-lato">
                     
-                    <div class="card_box" >
+
+                    <div class="card_box">
+                        <div class="card-header">
                             <h1>$0<sub>/1 month</sub></h1>
+                        </div>
+                        <div class="card-details">
                             <h2>Holiday & Short Stay Membership</h2>
                             <div class="details-box">
                                 <div>~</div>
-                                <p class="mrgin">  For holiday (0 - 1 month bookings) & Short Stay (1 - 3 bookings).</p>
-                            </div>
+                                <p class="mrgin card-note">  For holiday (0 - 1 month bookings) & Short Stay (1 - 3 bookings).</p>
+                            </div> 
+                           
                         
                             <button class="card-btn">Signup </button>
+                        </div>
                     </div>
 
+
                     <div class="card_box">
+                        <div class="card-header">
                             <h1>$49<sub>/6 months</sub></h1>
+                        </div>
+                        <div class="card-details">
                             <h2>Long Stay Membership</h2>
                             <button class="renew-btn font-lato">Renews every 6 Months</button>
                             <div class="details-box">
                                 <div>~</div>
-                                <p> Keep your listing visible for 12 months.</p>
-                            </div>
+                                <p class="card-note"> Keep your listing visible for 12 months.</p>
+                            </div> 
                             <div class="details-box">
                                 <div>~</div>
-                                <p>For Stays 3+ months. Your listing will appear in our long stay category.</p>
+                                <p class="card-note">For Stays 3+ months. Your listing will appear in our long stay category.</p>
                             </div>
                         
                             <button class="card-btn">Signup </button>
+                        </div>
                     </div>
 
-                    <div class="card_box">
+                    <div class="card_box space-around">
+                        <div class="card-header">
                             <h1>$79<sub>/12 months </sub></h1>
-                            <h2>Long Stay Plus Membership</h2>
+                        </div>
+                        <div class="card-details">
+                            <h2>Long Stay <span>Plus</span> Membership</h2>
                             <button class="renew-btn font-lato">Renews every 1 year</button>
                             <div class="details-box">
                                 <div>~</div>
-                                <p> Keep your listing visible for 12 months.</p>
-                            </div>
+                                <p class="card-note"> Keep your listing visible for 12 months.</p>
+                            </div> 
                             <div class="details-box">
                                 <div>~</div>
-                                <p>For Stays 3+ months. Your listing will appear in our long stay category.</p>
+                                <p class="card-note">For Stays 3+ months. Your listing will appear in our long stay category.</p>
                             </div>
+                        
                             <button class="card-btn">Signup </button>
+                        </div>
                     </div>
+
                 </div>
                     </li>
                     
                 </ul>
 
 
-                <ul id="tab2">
+                <ul id="tab2" >
                     <li class="active">
                         
-                <div id="tab" class="row j-between font-lato">
+                <div id="tab" class="row j-between font-lato">  
 
-                    <div class="card_box " >
-                        <h1>Upgrade<sub>your membership</sub></h1>
-                        <h2>Reach More Guests </h2>
-                        <div class="details-box">
-                            <div>~</div>
-                            <p> Reach more potential guest by registering your properties across multiple categories.</p>
-                        </div> 
-                        <div class="details-box">
-                            <div>~</div>
-                            <p>  Sign up for the premium host and swap membership and you can find your home away from home too!</p>
+                    <div class="card_box">
+                        <div class="card-header">
+                             <h1>Upgrade<sub>your membership</sub></h1>
                         </div>
-                    
-                        <button class="card-btn">Signup </button>
-                    </div>
-        
-                    <div class="card_box" >
-                            <h1>$79<sub>/12 months </sub></h1>
-                            <h2>Holiday/Short + Long Stay Membership</h2>
-                            <button class="renew-btn font-lato">Renews every 1 year</button>
+                        <div class="card-details">
+                            <h2>Reach More Guests </h2>
                             <div class="details-box">
                                 <div>~</div>
-                                <p class="mrgin2">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
+                                <p class="card-note"> Reach more potential guest by registering your properties across multiple categories.</p>
+                            </div> 
+                            <div class="details-box">
+                                <div>~</div>
+                                <p class="card-note">  Sign up for the premium host and swap membership and you can find your home away from home too!</p>
                             </div>
+                        
                             <button class="card-btn">Signup </button>
-                    </div>
-        
-                    <div class="card_box">
-                        <h1>$109<sub>/12 months </sub></h1>
-                        <h2>Holiday/Short + Long Stay + Swap Membership</h2>
-                        <button class="renew-btn font-lato">Renews every 1 year</button>
-                        <div class="details-box">
-                            <div>~</div>
-                            <p class="mrgin2">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
                         </div>
-                        <button class="card-btn">Signup </button>
                     </div>
-            
+
+
+                    <div class="card_box">
+                        <div class="card-header">
+                            <h1>$79<sub>/12 months </sub></h1>
+                        </div>
+                        <div class="card-details">
+                                <h2>Holiday/Short + Long Stay Membership</h2>
+                                <button class="renew-btn font-lato">Renews every 1 year</button>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p class="mrgin2 card-note">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
+                            </div> 
+                           
+                            <button class="card-btn">Signup </button>
+                        </div>
+                    </div>
+
+                    <div class="card_box">
+                        <div class="card-header">
+                        <h1>$109<sub>/12 months </sub></h1>
+                        </div>
+                        <div class="card-details">
+                                 <h2>Holiday/Short + Long Stay + Swap Membership</h2>
+                                 <button class="renew-btn font-lato">Renews every 1 year</button>
+                            <div class="details-box">
+                                <div>~</div>
+                                <p class="mrgin2 card-note">Your property will be listed in the Holiday, Short, Long Stay and SWAP categories for 12 months.</p>
+                            </div> 
+                        
+                            <button class="card-btn">Signup </button>
+                        </div>
+                    </div>
+
+
                 </div>
                     </li>
                     
@@ -343,33 +519,24 @@
                 <div class="row">
 
                     <div class="que-box1">
-                        <h1 class="que-heading font-Rolves">FREQUENTLY ASKED QUESTIONS</h1>
-                        <p class="font-lato">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has <a class="font-bold" href="#"> Help Center?</a> </p>
+                        <h1 class="que-heading font-Rolves-Bold" data-aos="zoom-in-up">FREQUENTLY ASKED QUESTIONS</h1>
+                        <p class="font-lato" data-aos="zoom-in-up">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has <a href="#"> Help Center?</a> </p>
 
                     </div>
 
-                    <div class="que-box2 font-lato">
+                    <div class="que-box2 font-lato" data-aos="fade-left">
                         <div class="wrapper">
                             <button class="toggle">
-                                <h3> How does shortstays australia work?</h3>
+                                <h3 class="font-lato"> How does shortstays australia work?</h3>
                                 <i class="fas fa-plus icon icon-clr"></i>
                             </button>
                             <div class="content">
-                                <p >Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                                <p >Starting a listing is completely free and easy—it only takes minutes from start to publish   Simply click “Get started” at the top of this page.</p>
                             </div>
                         </div>
                         <div class="wrapper">
                             <button class="toggle">
-                                <h3>How do I get started?</h3>
-                                <i class="fas fa-plus icon icon-clr"></i>
-                            </button>
-                            <div class="content">
-                                <p>Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
-                            </div>
-                        </div>
-                        <div class="wrapper">
-                            <button class="toggle">
-                                <h3>What about insurance?</h3>
+                                <h3 class="font-lato">How do I get started?</h3>
                                 <i class="fas fa-plus icon icon-clr"></i>
                             </button>
                             <div class="content">
@@ -378,7 +545,16 @@
                         </div>
                         <div class="wrapper">
                             <button class="toggle">
-                            <h3>   Is my land a fit?</h3>
+                                <h3 class="font-lato">What about insurance?</h3>
+                                <i class="fas fa-plus icon icon-clr"></i>
+                            </button>
+                            <div class="content">
+                                <p>Starting a listing is completely free and easy—it only takes minutes from start to publish. Simply click “Get started” at the top of this page.</p>
+                            </div>
+                        </div>
+                        <div class="wrapper">
+                            <button class="toggle">
+                            <h3 class="font-lato">Is my land a fit?</h3>
                                 <i class="fas fa-plus icon icon-clr"></i>
                             </button>
                             <div class="content">
@@ -402,10 +578,10 @@
                     <video src="./video/video-1.mp4" autoplay muted loop></video>
 
                     <div class="callout t-whight-clr">
-                        <h1 class="font-Rolves font-bold text-center">Try Become Host</h1>
-                        <p class="font-lato text-center">After you've selected your membership, you'll be automatically redirected to complete your host profile and add your first property.</p>
+                        <h1 class="font-Rolves-Bold font-bold text-center" data-aos="zoom-in-up">Try Become Host</h1>
+                        <p class="font-lato text-center" data-aos="zoom-in-up">After you've selected your membership, you'll be automatically redirected to complete your host profile and add your first property.</p>
                             
-                            <span class="start-btn font-lato ">
+                            <span class="start-btn font-lato " data-aos="flip-down">
                                 Get started
                                 <img  src="./assets/arrow-right.svg" alt="">
                         </span>
@@ -419,14 +595,16 @@
         <footer class="ftr-section">
             <div class="container font-lato">
 
-                    <div class="row j-between  t-whight-clr">
+                    <div class="row j-between  t-whight-clr" data-aos="fade-up"
+                    data-aos-duration="3000">
 
-                        <div class="ftr-box">
+                        <div class="ftr-box" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <ul>
-                                <img  fill="#ffffff" src="./assets/logo-2.svg" alt="">
-                                <li class="line-hight"><a href="#">When life takes you places.</a></li>
-                                <img src="./assets/facebook-squared.svg" alt="">
-                                <img src="./assets/Instagram.svg" alt="">
+                                <img src="./assets/logo-2.svg" alt="">
+                                <li class="line-hight"><p>When life takes you places.</p></li>
+                                <img src="./assets/facebook-squared (1).svg" alt="">
+                                <img class="insta-icon" src="./assets/Instagram.svg" alt="">
                             </ul>
                         </div>
 
@@ -466,7 +644,7 @@
                         <div class="ftr-box">
                             <h3>Questions?</h3>
                             <ul class="ftr-text">
-                                <li><a href="#">Drop us a line at:</a></li>
+                                <li><p>Drop us a line at:</p></li>
                                 <li ><h3><a class="ftr-font-clr" href="#">hello@shortstays.com</a></h3></li>
 
                                 <div class="underline"></div>
@@ -477,7 +655,7 @@
 
                     </div>
 
-                    <div class="row">
+                    <div class="row" data-aos="fade-right">
                         <div class="ftr-text-box  t-whight-clr">
                             <img class="ftr-img" src="./assets/ftr-img.png" alt="">
 
@@ -496,7 +674,7 @@
                         </div>
                         
                         <div class="ftr-text-box  t-whight-clr">
-                            <img class="img-3" src="./assets/img-1.png" alt="">
+                            <img class="img-3" src="./assets/ftr-1-img.svg" alt="">
                         </div>
                         
                         <div class="ftr-text-box  t-whight-clr">
@@ -507,17 +685,18 @@
                     <div class="underline"></div>
 
 
-                    <div class="row t-whight-clr j-between">
+                    <div class="row t-whight-clr j-between" >
                             <div >
-                                <p class="last-font">Copyright 2022-short Stays Australia <sup>TM</sup>. All Right Reserved.</p>
+                                <p class="last-font">Copyright &#169 2022-short Stays Australia &#8482 &#65372 All Right Reserved.</p>
                             </div>
                         
-                            <div>
-                                <label class="ftr-end-text" for="">Terms os use</label>
-                                <label class="ftr-end-text" for="">Privacy policy</label>
-                                <label class="ftr-end-text" for="">Payment terms</label>
-                                <label class="ftr-end-text" for="">Cancellation Policies</label>
+                            <div class="t-whight-clr">
+                                <a class="ftr-end-text t-whight-clr"  href="#">Terms os use</a>
+                                <a class="ftr-end-text t-whight-clr"  href="#">Privacy policy</a>
+                                <a class="ftr-end-text t-whight-clr"  href="#">Payment terms</a>
+                                <a class="ftr-end-text t-whight-clr"  href="#">Cancellation Policies</a>
                             </div>
+                            
                             
                     </div>
                     
@@ -527,119 +706,136 @@
         </footer>
 
     
+        <!-- hero section auto video  -->
+
+       
+
     <!-- change image script -->
 
-    <script>
-        function openCity(evt, cityName) {
-          var i, grup_img, tablinks;
-          grup_img = document.getElementsByClassName("grup_img");
-          for (i = 0; i < grup_img.length; i++) {
-            grup_img[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-    </script>
+        <script>
+            function openCity(evt, cityName) {
+
+            var i, grup_img, tablinks;
+
+            grup_img = document.getElementsByClassName("grup_img");
+            for (i = 0; i < grup_img.length; i++) {
+                grup_img[i].style.display = "none"; 
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", " ");
+            }
+            
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+
+            }
+        </script>
+
+        <!-- progrese section 2 script  -->
+
+        <script>
+            function openCity2(evt2, cityName2) {
+
+            var i, grup_img2, tablinks2;
+
+            grup_img2 = document.getElementsByClassName("grup_img2");
+            for (i = 0; i < grup_img2.length; i++) {
+                grup_img2[i].style.display = "none"; 
+            }
+
+            tablinks2 = document.getElementsByClassName("tablinks2");
+            for (i = 0; i < tablinks2.length; i++) {
+                tablinks2[i].className = tablinks2[i].className.replace(" active", " ");
+            }
+            
+            document.getElementById(cityName2).style.display = "block";
+            evt2.currentTarget.className += " active";
+
+            }
+        </script>
+
+
+        <script>
+            const items = document.querySelectorAll('.accordion button');
+
+            function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+            }
+
+            items.forEach((item) => item.addEventListener('click', toggleAccordion));
+        </script>
 
     <!-- accrodion script -->
 
-    <script>
-            
-                            let toggles = document.getElementsByClassName('toggle');
-                let contentDiv = document.getElementsByClassName('content');
-                let icons = document.getElementsByClassName('icon');
+        <script>
+                
+                    let toggles = document.getElementsByClassName('toggle');
+                    let contentDiv = document.getElementsByClassName('content');
+                    let icons = document.getElementsByClassName('icon');
 
-                for(let i=0; i<toggles.length; i++){
-                    toggles[i].addEventListener('click', ()=>{
-                        if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
-                            contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
-                            toggles[i].style.color = "#0084e9";
-                            icons[i].classList.remove('fa-plus');
-                            icons[i].classList.add('fa-minus');
-                        }
-                        else{
-                            contentDiv[i].style.height = "0px";
-                            toggles[i].style.color = "#111130";
-                            icons[i].classList.remove('fa-minus');
-                            icons[i].classList.add('fa-plus');
-                        }
-
-                        for(let j=0; j<contentDiv.length; j++){
-                            if(j!==i){
-                                contentDiv[j].style.height = "0px";
-                                toggles[j].style.color = "#111130";
-                                icons[j].classList.remove('fa-minus');
-                                icons[j].classList.add('fa-plus');
+                    for(let i=0; i<toggles.length; i++){
+                        toggles[i].addEventListener('click', ()=>{
+                            if( parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight){
+                                contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+                                toggles[i].style.color = "rgba(243, 162, 78, 1)";
+                                icons[i].classList.remove('fa-plus');
+                                icons[i].classList.add('fa-minus');
+                                toggles[i].classList.add('toggle-bg');
                             }
-                        }
-                    });
-                }
-    </script>
+                            else{
+                                contentDiv[i].style.height = "0px";
+                                toggles[i].style.color = "";
+                                icons[i].classList.remove('fa-minus');
+                                icons[i].classList.add('fa-plus');
+                            }
 
-    <!-- accrodion change image script -->
+                            for(let j=0; j<contentDiv.length; j++){
+                                if(j!==i){
+                                    contentDiv[j].style.height = "0px";
+                                    toggles[j].style.color = "#111130";
+                                    icons[j].classList.remove('fa-minus');
+                                    icons[j].classList.add('fa-plus');
+                                    // toggles[j].classList.add('toggle-bg2');
+                                }
+                            }
+                        });
+                    }
+        </script>
 
-    <script>
-        const items = document.querySelectorAll('.accordion button');
-
-        function toggleAccordion() {
-        const itemToggle = this.getAttribute('aria-expanded');
-
-        for (i = 0; i < items.length; i++) {
-            items[i].setAttribute('aria-expanded', 'false');
-        }
-
-        if (itemToggle == 'false') {
-            this.setAttribute('aria-expanded', 'true');
-        }
-        }
-
-        items.forEach((item) => item.addEventListener('click', toggleAccordion));
-    </script>
 
     <!-- card change script -->
     
-    <script>
-        $(document).ready(function(){
-        $("ul#tabs li").click(function(e){
-            if (!$(this).hasClass("active")) {
-                var tabNum = $(this).index();
-                var nthChild = tabNum+1;
-                $("ul#tabs li.active").removeClass("active");
-                $(this).addClass("active");
-                $("ul#tab li.active").removeClass("active");
-                $("ul#tab li:nth-child("+nthChild+")").addClass("active");
-                $("ul#tab2 li.active").removeClass("active");
-                $("ul#tab2 li:nth-child("+nthChild+")").addClass("active");
-            }
-        });
-    });
-    </script>
-
-
-    <!-- <script>
-                const tabs = document.querySelectorAll("[data-tab-target]");
-        const tabContents = document.querySelectorAll(".tab-content");
-
-        tabs.forEach((tab) => {
-        tab.addEventListener("click", () => {
-            tabs.forEach((tab) => {
-            tab.classList.remove("active");
+        <script>
+            $(document).ready(function(){
+            $("ul#tabs li").click(function(e){
+                if (!$(this).hasClass("active")) {
+                    var tabNum = $(this).index();
+                    var nthChild = tabNum+1;
+                    $("ul#tabs li.active").removeClass("active");
+                    $(this).addClass("active");
+                    $("ul#tab li.active").removeClass("active");
+                    $("ul#tab li:nth-child("+nthChild+")").addClass("active");
+                    $("ul#tab2 li.active").removeClass("active");
+                    $("ul#tab2 li:nth-child("+nthChild+")").addClass("active");
+                }
             });
-            tab.classList.add("active");
-            tabContents.forEach((tabContent) => {
-            tabContent.classList.remove("active");
-            });
-            const target = document.querySelector(tab.dataset.tabTarget);
-            target.classList.add("active");
         });
-        });
-    </script> -->
+        </script>
 
 
+      <script>
+        AOS.init();
+      </script>
 
 </body>
-</html>
+</html> 

@@ -9,28 +9,33 @@
         width: 1140px;
         margin: auto;
     }
-    .join-btn {
-        padding: 7px 11px;
-    }
     .btn-text {
         font-size: 16px;
     }
     .nav-boxs {
-        width: 28%;
-        align-items: center;
-        margin: 12px 00px 12px 00px;
-        display: flex;
-        margin: 4px 00px;
+        margin: 10px 00px;
+    }
+    .drpdown-box {
+        margin: 00px 73px 00px 370px;
+      }
+      .show {
+        margin: 00px 19px;
+    }
+    .join-btn {
+        padding: 9px 20px;
+    }
+    .login-btn{
+        padding-left: 17px;
     }
     .about-btn {
-        padding: 00px 10px 00px 10px;
+        padding: 00px 20px 00px 20px;
     }
     .hero-text-box {
         width: 70%;
-        padding-top: 100px;
+        padding-top: 80px;
     }
     .hero-text-box h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .mrgin {
         margin-bottom: 85px;
@@ -50,7 +55,7 @@
         line-height: 14px;
     }
     .hero-text-box p {
-        font-size: 18px;
+        font-size: 19px;
         padding: 14px 00px 30px 00px;
     }
     .puse-box {
@@ -65,8 +70,11 @@
     .mrgin2 {
         margin-bottom: 34px;
     }
-    .card_box {
-        padding: 00px 15px 20px 25px;
+    .card-details{
+        padding: 00px 20px 30px 20px;
+    }
+    .card-header{
+        padding: 24px 20px;
     }
     .ftr-section {
         padding: 30px 00px 20px 00px;
@@ -74,6 +82,12 @@
     .ftr-text {
         font-size: 15px;
     }
+    .video-box {
+        padding: 192px 310px 171px 310px;
+    }
+    #myVideo {
+        height: 517px;
+      }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -89,12 +103,22 @@
         width: 30%;
         margin-top: 40px;
     }
+    .content {
+        padding: 00px 30px;
+    }
     .box p {
         padding: 22px 30px 00px 30px;
     }
     .heading {
         font-size: 29px;
         padding: 12px 00px 20px 00px;
+    }
+    .accordion button .accordion-title {
+        font-size: 21px;
+        width: 100%;
+    }
+    .wrapper h3{
+        font-size: 21px;
     }
     .que-section {
         padding: 90px 00px 00px 00px;
@@ -119,21 +143,12 @@
     .que-box1 p {
         padding: 30px 00px 90px 00px;
     }
-    .p-boxs {
-        width: 100%;
-        margin: 60px 00px 00px 00px;
-    }
-    .accordion-item {
-        width: 50%;
-        margin: auto;
-    }
-    .grup_img {
-        /* width: 70%; */
-        height: 500px;
-        margin: auto;
-    }
+
     .process-box {
         text-align: center;
+    }
+    .mrgin {
+        margin-bottom: 90px;
     }
     .ftr-box{
         width: 20%;
@@ -164,8 +179,6 @@
     }
     .card_box {
         width: 32%;
-        padding: 00px 20px 19px 25px;
-        margin: auto;
     }
     .card_box h2 {
         font-size: 19px;
@@ -186,7 +199,7 @@
         padding: 75px 00px 60px 00px;
     }
     .join-btn {
-        padding: 3px 5px;
+        padding: 9px 10px;
     }
     .btn-text {
         font-size: 15px;
@@ -199,12 +212,18 @@
         font-size: 15px;
         padding: 00 2px;
     }
-    .p {
-        font-size: 17px;
-    }
     .last-font{
         padding-left: 240px;
     }
+    .drpdown-box {
+        margin: 00px 22px 00px 250px;
+      }
+      .login-btn{
+        padding-left: 6px;
+    }
+    #myVideo {
+        height: 496px;
+      }
 }
 
 @media only screen and (max-width: 992px) {
@@ -212,15 +231,79 @@
         width: 720px;
         margin: auto;
     }
+    .accordion button[aria-expanded="true"] + .accordion-content {
+        max-height: 550px;
+        margin: auto;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 135px;
+        flex-direction: row;
+        background-color: rgba(255, 255, 255);
+        width: 30%;
+        float: right;
+        display: inline-block;
+        /* height: 400px; */
+        border: 1px solid rgb(211, 211, 211);
+        text-align: center;
+    }
+    .nav-menu.active {
+        left: 0;
+    } 
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .drpdown-box {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 00px ;
+      }
+      .show {
+        all: unset;
+        padding: 12px 2px;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        margin: 00px 25px;
+    }
+    .join-btn {
+        margin: 10px 58px;
+        padding: 12px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-btn {
+        height: 50px;
+        padding: 00px ;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .login-btn{
+        padding-left: 00;
+        display: flex;
+        font-size: 18px;
+        justify-content: space-around;
+        margin: 10px 40px 30px 60px;
+    }
+    .btns-block{
+        display: block;
+    }
     .card_box {
         width: 46%;
         margin-top: 20px;
     }
     .mrgin {
-        margin-bottom: 132px;
+        margin-bottom: 113px;
     }
     .process-contaian {
         padding: 80px 00px 70px 00px;
+    }
+    .que-box2 {
+        width: 90%;
     }
     .hero-text-box {
         width: 100%;
@@ -229,31 +312,36 @@
     .last-font{
         padding-left: 140px;
     }
-
-
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 120px;
-        flex-direction: column;
-        background-color: rgb(255, 255, 255);
-        /* width: 100%; */
-        /* height: 100px; */
-        padding: 20px 00px 20px 00px;
-        border: 1px solid rgb(211, 211, 211);
-        text-align: center;
-        /* transition: 0.3s; */
-        z-index: 1;
+    .nav-boxs {
+        margin: 7px 00px 7px 00px;
     }
-    .nav-menu.active {
-        /* left: 0; */
-    } 
-    .hamburger {
-        display: block;
-        cursor: pointer;
+    .space-around{
+        margin: auto;
+        margin-top: 20px;
+    }
+    #myVideo {
+        height: 510px;
+      }
+      .p-boxs {
+        width: 100%;
+        margin: 00px;
+    }
+    .accordion_item {
+        width: 80%;
+        margin: auto;
+    }
+    .que-box {
+        padding: 80px 00 20px 00;
     }
 
+        /* process section 2 */
+
+        .section-show{
+            display: block;
+        }
+        .section-hide{
+            display: none;
+        }
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,6 +351,18 @@
     }
     .hero-text-box {
         text-align: center;
+    }
+    .nav-menu {
+        top: 135px;
+        width: 37%;
+        height: auto;
+    }
+    .join-btn {
+        margin: 10px 58px;
+        padding: 11px;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
     }
     .puse-box {
         padding: 100px 00px 15px 00px;
@@ -275,20 +375,30 @@
         padding: 70px 00px 20px 00px;
     }
     .accordion-item {
-        width: 70%;
+        width: 95%;
     }
     .p-boxs {
-        margin: 30px 00px 00px 00px;
+        margin: 00px 00px 00px 00px;
+    }
+    .accordion_item {
+        width: 100%;
+    }
+    h1 sub {
+        font-size: 16px;
+        color: grey;
+        font-weight: normal;
+    }
+    .card-header{
+        padding: 25px 15px;
     }
     .card_box {
         width: 49%;
-        padding: 00px 10px 10px 10px;
     }
     .mrgin {
         margin-bottom: 90px;
     }
     .mrgin2 {
-        margin-bottom: 20px;
+        margin-bottom: 38px;
     }
     .que-section {
         padding: 70px 00px 00px 00px;
@@ -304,11 +414,26 @@
         display: block;
     }
     .p-title {
-        padding: 00 100px 10px 30px;
+        padding: 00 70px 10px 30px;
         word-spacing: 5px;
+    }
+    .wrapper {
+        padding: 10px 00px;
     }
     .last-font{
         padding-left: 60px;
+    }
+    #myVideo {
+        height: 590px;
+      }
+    #myBtn {
+        width: 57px;
+        padding: 26px 00px;
+      }
+     
+    .login-btn {
+        justify-content: space-around;
+        margin: 10px 40px 30px 50px;
     }
 }
 
@@ -316,6 +441,18 @@
     .container{
         width: 405px;
         margin: auto;
+    }
+    .nav-menu {
+        top: 135px;
+        width: 48%;
+        height: auto;
+    }
+    .join-btn {
+        margin: 10px 58px;
+        padding: 10px 6px;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
     }
     .ftr-box{
         width: 50%;
@@ -346,6 +483,7 @@
     } 
     .p-title {
         padding: 00 00px 10px 10px;
+        font-size: 16px;
     }
     .f-size {
         padding: 00 00px 00 10px;
@@ -366,11 +504,7 @@
         padding: 80px 40px;
     }
     .que-box2 {
-        width: 90%;
-        margin: auto;
-    }
-    .card_box {
-        padding: 00px 20px 20px 20px;
+        width: 100%;
     }
     .grup_img {
         height: 350px;
@@ -382,9 +516,21 @@
         margin: 90px 00px 60px 00px;
     }
     .puse-box {
-        margin: 00px 00px 15px 00px;
+        margin: 00px 00px 15px 40px;
     }
-
+    #myVideo {
+        height: 673px;
+      }
+      .toggle {
+        padding: 10px 20px ;
+    }
+    .content {
+        padding: 00px 80px 00px 20px;
+    }
+    .login-btn{
+        justify-content: space-around;
+        margin: 10px 40px 30px 60px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -392,6 +538,14 @@
     width: 300px;
     margin: auto;
  }
+ .nav-menu {
+    top: 135px;
+    width: 60%;
+}
+.join-btn {
+    margin: 10px 48px;
+    padding: 8px 1px;
+}
  .ftr-box{
     width: 100%;
     display: block;
@@ -440,16 +594,18 @@
     height: 300px;
 }
 .accordion-item {
-    padding: 10px 10px;
+    width: 100%;
+    padding: 00px ;
 }
 .accordion button .accordion-title {
-    font-size: 16px;
+    font-size: 18px;
+    padding: 00px 20px;
 }
 .heading {
     font-size: 22px;
 }
 .p {
-    font-size: 14px;
+    font-size: 18px;
 }
 .title {
     font-size: 16px;
@@ -461,12 +617,19 @@
     font-size: 16px;
 }
 .puse-box {
-    padding: 60px 00px 15px 10px;
-    font-size: 11px;
+    padding: 60px 00px 15px 00px;
+    margin: 00px 1px;
 }
-.push-img{
+.push-img { 
+    width: 37px;
+    height: 37px;
+    transition: width 1s, height 1s;
+  }
+  .push-img:hover {
+    width:40px;
     height: 40px;
-}
+    border: 3px solid rgba(132, 132, 132, 0.349);
+  }
 .start-btn2 {
     padding: 9px 15px;
     font-size: 16px;
@@ -475,10 +638,36 @@
     font-weight: normal;
 }
 .hero-text-box h1 {
-    font-size: 30px;
+    font-size: 35px;
 }
 .hero-text-box {
     width: 100%;
     padding-top: 70px;
 }
+.push-btn-center{
+    display: flex;
+}
+.note{
+    font-size: 18px;
+}
+.p-title {
+    line-height: 24px;
+}
+#myVideo {
+    height: 432px;
+  }
+  .p-boxs {
+    width: 100%;
+    margin: 00px;
+}
+.toggle {
+    padding: 10px 5px ;
+}
+.login-btn{
+    margin: 10px 30px 30px 50px;
+}
+#myBtn {
+    width: 40px;
+    padding: 18px 00px;
+  }
 }

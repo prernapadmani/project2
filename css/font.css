@@ -6,3 +6,7 @@
     font-family: Rolves-Regular;
     src: url(../font/Rolves-Regular.ttf);
 }
+@font-face {
+    font-family: Rolves-Bold;
+    src: url(../font/Rolves-Bold.ttf);
+}
