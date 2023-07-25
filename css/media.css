@@ -224,6 +224,17 @@
     #myVideo {
         height: 496px;
       }
+      #myBtn{
+        width: 49px;
+        font-size: 18px;
+        padding: 23px 00px;
+      }
+      #myBtn:hover {
+        width: 55px;
+        height: 00px;
+        transform:scale(1);
+        transition: 0.75s ease-in-out;
+      }
 }
 
 @media only screen and (max-width: 992px) {
@@ -426,11 +437,17 @@
     #myVideo {
         height: 590px;
       }
-    #myBtn {
-        width: 57px;
-        padding: 26px 00px;
+      /* #myBtn{
+        width: 49px;
+        font-size: 18px;
+        padding: 23px 00px;
       }
-     
+      #myBtn:hover {
+        width: 55px;
+        height: 00px;
+        transform:scale(1);
+        transition: 0.75s ease-in-out;
+      } */
     .login-btn {
         justify-content: space-around;
         margin: 10px 40px 30px 50px;
@@ -666,8 +683,27 @@
 .login-btn{
     margin: 10px 30px 30px 50px;
 }
+.content {
+    padding: 00px 80px 00px 20px;
+}    .content {
+    padding: 00px 80px 00px 20px;
+}
 #myBtn {
-    width: 40px;
-    padding: 18px 00px;
+    width: 35px;
+    padding: 16px 00px;
   }
+  #myBtn:hover {
+    border: 3px solid rgba(156, 156, 156, 0.651);
+    width: 36px;
+    /* height: 00px; */
+    padding: 15px 00px;
+    transform:scale(0.90);
+    transition: 0.75s ease-in-out;
+  }
+  .puse-box h2{
+    font-size: 17px;
+}
+.content {
+    padding: 00px 40px 00px 5px;
+}
 }
